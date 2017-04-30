@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AudioMP3</string>
+    <string name="login.user.hint">Correo Electronico</string>
+    <string name="login.lbl.user">Usuario</string>
+    <string name="login.et.password.hint">Password</string>
+
+</resources>
