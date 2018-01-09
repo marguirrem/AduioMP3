@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:id="@+id/layoutImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="@dimen/login.margin_top"
-        android:layout_gravity="center_horizontal"
-        >
+
         <ImageView
             android:id="@+id/imageLogo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/mp3_logo" />
+            android:src="@drawable/mp3_logo"
+            android:layout_centerInParent="true"/>
 
-    </LinearLayout>
+        <android.support.v4.widget.ContentLoadingProgressBar
+            android:id="@+id/loginProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@android:style/Widget.ProgressBar.Inverse"
+            android:layout_below="@+id/imageLogo"
+            android:layout_centerHorizontal="true"/>
 
-</LinearLayout>
+
+</RelativeLayout>
