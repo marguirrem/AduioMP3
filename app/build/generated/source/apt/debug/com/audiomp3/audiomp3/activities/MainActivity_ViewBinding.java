@@ -15,17 +15,17 @@ import java.lang.IllegalStateException;
 import java.lang.Override;
 
 public class MainActivity_ViewBinding implements Unbinder {
-  private MainActivity target;
+  private LoginActivity target;
 
   private View view2131230750;
 
   @UiThread
-  public MainActivity_ViewBinding(MainActivity target) {
+  public MainActivity_ViewBinding(LoginActivity target) {
     this(target, target.getWindow().getDecorView());
   }
 
   @UiThread
-  public MainActivity_ViewBinding(final MainActivity target, View source) {
+  public MainActivity_ViewBinding(final LoginActivity target, View source) {
     this.target = target;
 
     View view;
@@ -46,7 +46,7 @@ public class MainActivity_ViewBinding implements Unbinder {
   @Override
   @CallSuper
   public void unbind() {
-    MainActivity target = this.target;
+    LoginActivity target = this.target;
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
