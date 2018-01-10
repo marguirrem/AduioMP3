@@ -22,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText txtPassword;
     @BindView(R.id.btnSigIn)
     Button btnIniciar;
-    @BindView(R.id.progresBar)
+    @BindView(R.id.loginProgress)
     ProgressBar progressBar;
     @BindView(R.id.tvMessagePassword)
     TextView tvMessagePassword;
