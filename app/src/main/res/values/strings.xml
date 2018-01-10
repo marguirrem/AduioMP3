@@ -5,6 +5,7 @@
     <string name="login.btnSigIn">Entrar</string>
     <string name="login.btnSigUp">Registrarse</string>
     <string name="login.tv.message.password">Olvidaste tu contraseña?</string>
+    <string name="login.tv.message.singup">Aún no tienes una cuenta? Registrate</string>
 
     <string name="registro.et.tipoDocumento">Tipo de documento</string>
 

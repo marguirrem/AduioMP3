@@ -3,10 +3,11 @@ package com.audiomp3.audiomp3.activities;
 
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
-import android.support.v4.widget.ContentLoadingProgressBar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
@@ -18,6 +19,10 @@ public class LoginActivity_ViewBinding implements Unbinder {
   private LoginActivity target;
 
   private View view2131230748;
+
+  private View view2131230876;
+
+  private View view2131230877;
 
   @UiThread
   public LoginActivity_ViewBinding(LoginActivity target) {
@@ -40,7 +45,25 @@ public class LoginActivity_ViewBinding implements Unbinder {
         target.singIn();
       }
     });
-    target.progressBar = Utils.findRequiredViewAsType(source, R.id.progresBar, "field 'progressBar'", ContentLoadingProgressBar.class);
+    target.progressBar = Utils.findRequiredViewAsType(source, R.id.progresBar, "field 'progressBar'", ProgressBar.class);
+    view = Utils.findRequiredView(source, R.id.tvMessagePassword, "field 'tvMessagePassword' and method 'recoverPassword'");
+    target.tvMessagePassword = Utils.castView(view, R.id.tvMessagePassword, "field 'tvMessagePassword'", TextView.class);
+    view2131230876 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.recoverPassword();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.tvMessageSignUp, "field 'tvMessageSignUp' and method 'singUp'");
+    target.tvMessageSignUp = Utils.castView(view, R.id.tvMessageSignUp, "field 'tvMessageSignUp'", TextView.class);
+    view2131230877 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.singUp();
+      }
+    });
   }
 
   @Override
@@ -54,8 +77,14 @@ public class LoginActivity_ViewBinding implements Unbinder {
     target.txtPassword = null;
     target.btnIniciar = null;
     target.progressBar = null;
+    target.tvMessagePassword = null;
+    target.tvMessageSignUp = null;
 
     view2131230748.setOnClickListener(null);
     view2131230748 = null;
+    view2131230876.setOnClickListener(null);
+    view2131230876 = null;
+    view2131230877.setOnClickListener(null);
+    view2131230877 = null;
   }
 }

@@ -68,12 +68,12 @@
         "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b7d2c9cc7cf89d5b0ecabb7fb137e2e0/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/anim_design_fab_in.xml.flat",
-        "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/b7f7e2d22c0c3b9821873c1fde9a5813/res/anim/design_fab_in.xml"
-    },
-    {
         "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b7d2c9cc7cf89d5b0ecabb7fb137e2e0/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/anim_design_fab_in.xml.flat",
+        "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/b7f7e2d22c0c3b9821873c1fde9a5813/res/anim/design_fab_in.xml"
     },
     {
         "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/drawable_abc_btn_colored_material.xml.flat",
@@ -96,12 +96,12 @@
         "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b7d2c9cc7cf89d5b0ecabb7fb137e2e0/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b7d2c9cc7cf89d5b0ecabb7fb137e2e0/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b7d2c9cc7cf89d5b0ecabb7fb137e2e0/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b7d2c9cc7cf89d5b0ecabb7fb137e2e0/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -252,12 +252,12 @@
         "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b7d2c9cc7cf89d5b0ecabb7fb137e2e0/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b7d2c9cc7cf89d5b0ecabb7fb137e2e0/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/home/marlon/proyectos/android/AudioMP3/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b7d2c9cc7cf89d5b0ecabb7fb137e2e0/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/color-v23_abc_btn_colored_borderless_text_material.xml.flat",
@@ -376,12 +376,12 @@
         "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b7d2c9cc7cf89d5b0ecabb7fb137e2e0/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b7d2c9cc7cf89d5b0ecabb7fb137e2e0/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/drawable_abc_ic_search_api_material.xml.flat",
         "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b7d2c9cc7cf89d5b0ecabb7fb137e2e0/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b7d2c9cc7cf89d5b0ecabb7fb137e2e0/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat",
@@ -592,12 +592,12 @@
         "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/b7f7e2d22c0c3b9821873c1fde9a5813/res/layout/design_navigation_menu_item.xml"
     },
     {
-        "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_design_ic_visibility.png.flat",
-        "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/b7f7e2d22c0c3b9821873c1fde9a5813/res/drawable-xhdpi-v4/design_ic_visibility.png"
-    },
-    {
         "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
         "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b7d2c9cc7cf89d5b0ecabb7fb137e2e0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_design_ic_visibility.png.flat",
+        "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/b7f7e2d22c0c3b9821873c1fde9a5813/res/drawable-xhdpi-v4/design_ic_visibility.png"
     },
     {
         "merged": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/res/merged/debug/drawable-v23_abc_control_background_material.xml.flat",
