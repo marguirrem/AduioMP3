@@ -59,10 +59,9 @@
 
         <EditText
             android:id="@+id/etConfirmPassword"
-            android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/registro.et.confirmPassword"/>
+            android:hint="@string/registro.et.username"/>
 
     </android.support.design.widget.TextInputLayout>
 

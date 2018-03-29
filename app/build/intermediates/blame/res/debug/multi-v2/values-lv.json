@@ -4,7 +4,7 @@
             "outputFile": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml",
             "map": [
                 {
-                    "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b7d2c9cc7cf89d5b0ecabb7fb137e2e0/res/values-lv/values-lv.xml",
+                    "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f127a49b900c62ec9fe08763799fc552/res/values-lv/values-lv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

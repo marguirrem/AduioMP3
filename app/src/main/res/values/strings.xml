@@ -13,6 +13,8 @@
     <string name="registro.et.email">Correo Electronico</string>
     <string name="registro.et.password">Contraseña</string>
     <string name="registro.et.confirmPassword">Confirmar Contraseña</string>
+    <string name="registro.et.username">Username</string>
+
     <string name="registro.btn.signUp">Registrarse</string>
 
 </resources>

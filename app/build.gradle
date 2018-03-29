@@ -17,7 +17,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    buildToolsVersion '26.0.2'
+    buildToolsVersion '27.0.3'
 }
 
 dependencies {
@@ -32,5 +32,9 @@ dependencies {
     compile "com.jakewharton:butterknife:$rootProject.ext.butterKnifeVersion"
     annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.ext.butterKnifeVersion"
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    compile "com.squareup.retrofit2:retrofit:$rootProject.ext.retrofitVersion"
+    compile "com.squareup.retrofit2:converter-gson:$rootProject.ext.retrofitVersion"
+
     testCompile 'junit:junit:4.12'
 }
