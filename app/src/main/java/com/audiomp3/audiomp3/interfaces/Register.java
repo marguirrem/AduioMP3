@@ -8,6 +8,7 @@ import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.Headers;
 import retrofit2.http.POST;
+import retrofit2.http.Query;
 
 /**
  * Created by marlon on 29/01/18.
@@ -15,12 +16,11 @@ import retrofit2.http.POST;
 
 public interface Register {
 
-
-    @FormUrlEncoded
+    @Headers("Content-Type: application/json")
     @POST("api/user/register")
-    Call<ResponseRegister> register(@Field("username") String username,
-                                    @Field("first_name")String firstName,
-                                    @Field("password") String password,
-                                    @Field("last_name")String lastName,
-                                    @Field("email")String email);
+    Call<ResponseRegister> register(@Query("username") String username,
+                                    @Query("first_name")String firstName,
+                                    @Query("password") String password,
+                                    @Query("last_name")String lastName,
+                                    @Query("email")String email);
 }

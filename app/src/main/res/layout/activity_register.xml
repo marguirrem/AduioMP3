@@ -69,17 +69,27 @@
         android:id="@+id/btnSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
-       android:textColorLink="@color/colorWhite"
-        android:hint="@string/registro.btn.signUp"/>
+        android:background="@drawable/button_round"
+        android:text="@string/registro.btn.signUp"
+        android:textColor="@color/colorWhite"
+        android:visibility="visible" />
 
-    <android.support.v4.widget.ContentLoadingProgressBar
-        android:id="@+id/registerProgress"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        style="@android:style/Widget.ProgressBar.Inverse"
-        android:layout_below="@+id/imageLogo"
-        android:layout_centerHorizontal="true"
-        android:visibility="gone"/>
+    <LinearLayout
 
+        android:id="@+id/layoutProgressbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <android.support.v4.widget.ContentLoadingProgressBar
+            android:id="@+id/registerProgress"
+            style="@android:style/Widget.ProgressBar.Inverse"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageLogo"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+        />
+
+    </LinearLayout>
 </LinearLayout>

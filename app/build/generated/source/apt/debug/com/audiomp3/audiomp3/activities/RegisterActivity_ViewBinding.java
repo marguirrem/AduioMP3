@@ -3,10 +3,10 @@ package com.audiomp3.audiomp3.activities;
 
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
-import android.support.v4.widget.ContentLoadingProgressBar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
@@ -43,7 +43,7 @@ public class RegisterActivity_ViewBinding implements Unbinder {
         target.signUp();
       }
     });
-    target.registerProgress = Utils.findRequiredViewAsType(source, R.id.registerProgress, "field 'registerProgress'", ContentLoadingProgressBar.class);
+    target.registerProgress = Utils.findRequiredViewAsType(source, R.id.registerProgress, "field 'registerProgress'", ProgressBar.class);
   }
 
   @Override

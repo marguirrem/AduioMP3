@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v4.widget.ContentLoadingProgressBar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -14,14 +13,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
-
 import com.audiomp3.audiomp3.R;
 import com.audiomp3.audiomp3.interfaces.Register;
 import com.audiomp3.audiomp3.services.ResponseRegister;
-import com.google.gson.JsonObject;
 
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -50,7 +45,7 @@ public class RegisterActivity extends AppCompatActivity {
     @BindView(R.id.btnSignUp)
     Button btnSignUp;
     @BindView(R.id.registerProgress)
-    ContentLoadingProgressBar registerProgress;
+    ProgressBar registerProgress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,7 +61,7 @@ public class RegisterActivity extends AppCompatActivity {
         hideKeyBorad();
         new Peticion(this, view, etFirstName.getText().toString().trim(), etLastName.getText().toString().trim(),
                 etConfirmPassword.getText().toString().trim(), etEmail.getText().toString().trim(),
-                etPassword.getText().toString().trim()).execute();
+                etPassword.getText().toString().trim(),this.registerProgress).execute();
 
     }
 
@@ -117,8 +112,8 @@ public class RegisterActivity extends AppCompatActivity {
         ProgressBar progressBar;
 
 
-        public Peticion(Context context, View view, String first_name,
-                        String last_name, String username, String email, String password) {
+        public Peticion(Context context, View view, String first_name, String last_name,
+                        String username, String email, String password,ProgressBar progressBar) {
             this.username = username;
             this.password = password;
             this.first_name = first_name;
@@ -133,7 +128,7 @@ public class RegisterActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
-            // progressBar.setVisibility(View.GONE);
+            this.progressBar.setVisibility(View.GONE);
 
         }
 
@@ -162,6 +157,7 @@ public class RegisterActivity extends AppCompatActivity {
                             context.startActivity(i);
                             ((Activity) context).finish();
                         } else {
+                            Log.e("Error","codigo2: "+response.code()+response.toString());
                             Toast.makeText(context, "No se pudo Acceder! intente más tarde", Toast.LENGTH_LONG).show();
                         }
                     }
