@@ -102,9 +102,9 @@ public class LoginActivity extends AppCompatActivity {
                             if(response.code()==200){
 
                                 Toast.makeText(context,"Usuario "+response.body().getUsername()+" logeado con exito!", Toast.LENGTH_SHORT).show();
-                                /*Intent i = new Intent(context, LoginActivity.class);
-                            context.startActivity(i);
-                            ((Activity) context).finish();*/
+                                Intent i = new Intent(context, HomeActivity.class);
+                                context.startActivity(i);
+                                ((Activity) context).finish();
                             }
                             else{
                                 Toast.makeText(context, "Credenciales incorrectas", Toast.LENGTH_SHORT).show();

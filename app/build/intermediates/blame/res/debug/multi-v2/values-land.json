@@ -4,7 +4,17 @@
             "outputFile": "/home/marlon/proyectos/android/AudioMP3/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/24b0469c010d51a97f68a436578403fd/res/values-land/values-land.xml",
+                    "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b8397b557577eec7d06bda78a21e6ba5/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/40b6172fcafa633065216cafc8962eae/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "9",
                         "endColumns": "12",
                         "endOffsets": "505"
-                    }
-                },
-                {
-                    "source": "/home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/f127a49b900c62ec9fe08763799fc552/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
                     }
                 }
             ]
