@@ -2,8 +2,8 @@ package com.audiomp3.audiomp3.services;
 
 public class ResponseLogin {
 
-    private String firstName;
-    private String lastName;
+    private String first_name;
+    private String last_name;
     private String username;
     private String email;
     private String updatedAt;
@@ -30,8 +30,8 @@ public class ResponseLogin {
     public ResponseLogin(String first_name, String last_name, String username, String email,
                          String updated_at, String created_at, String id) {
         super();
-        this.firstName = first_name;
-        this.lastName = last_name;
+        this.first_name = first_name;
+        this.last_name = last_name;
         this.username = username;
         this.email = email;
         this.updatedAt = updated_at;
@@ -40,19 +40,19 @@ public class ResponseLogin {
     }
 
     public String getFirstName() {
-        return firstName;
+        return first_name;
     }
 
     public void setFirstName(String firstName) {
-        this.firstName = firstName;
+        this.first_name = firstName;
     }
 
     public String getLastName() {
-        return lastName;
+        return last_name;
     }
 
     public void setLastName(String lastName) {
-        this.lastName = lastName;
+        this.last_name = lastName;
     }
 
     public String getUsername() {

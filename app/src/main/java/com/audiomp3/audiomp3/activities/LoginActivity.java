@@ -3,6 +3,7 @@ package com.audiomp3.audiomp3.activities;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -31,6 +32,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class LoginActivity extends AppCompatActivity {
 
+
     @BindView(R.id.loginEtUsuario)
     EditText etUsuario;
     @BindView(R.id.loginEtPassword)
@@ -49,11 +51,13 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
+
     }
 
     @OnClick(R.id.btnSigIn)
     public void singIn(){
         progressBar.setVisibility(View.VISIBLE);
+
         new Peticion(this,etUsuario.getText().toString().trim(),
                 etPassword.getText().toString().trim()).execute();
     }
@@ -83,15 +87,15 @@ public class LoginActivity extends AppCompatActivity {
 
         @Override
         protected Void doInBackground(Void... voids) {
-
+            //constante de la url a la que se hace la petición
             final String url = "http://192.168.0.18/AudioMP3/public/";
+
             Retrofit retrofit = new Retrofit.Builder()
                     .baseUrl(url)
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
 
             Login service = retrofit.create(Login.class);
-
             Call<ResponseLogin> call = service.login(this.email,this.password);
             try {
 
@@ -100,8 +104,15 @@ public class LoginActivity extends AppCompatActivity {
                     public void onResponse(Call<ResponseLogin> call, Response<ResponseLogin> response) {
                         if (response.isSuccessful()) {
                             if(response.code()==200){
+                                String user_id = response.body().getId();
+                                String username = response.body().getUsername();
+                                //String pass = etPass.getText().toString().trim();
+                                String name = response.body().getFirstName();
+                                String lastName = response.body().getLastName();
+                                String email = response.body().getEmail();
+                                rememberMe(user_id,username,name,lastName,email);
 
-                                Toast.makeText(context,"Usuario "+response.body().getUsername()+" logeado con exito!", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context,"Usuario "+response.body().getFirstName()+" logeado con exito!", Toast.LENGTH_SHORT).show();
                                 Intent i = new Intent(context, HomeActivity.class);
                                 context.startActivity(i);
                                 ((Activity) context).finish();
@@ -122,13 +133,27 @@ public class LoginActivity extends AppCompatActivity {
                         t.printStackTrace();
                     }
                 });
-
-
             } catch (Exception e) {
                 e.printStackTrace();
             }
 
             return null;
+        }
+
+
+
+        private void rememberMe(String user_id,String username,String name,String lastName,String email){
+            //save id of user from websrvice on sharedpreferences
+            SharedPreferences sharedPref =getSharedPreferences("user",Context.MODE_PRIVATE);
+            SharedPreferences.Editor editor = sharedPref.edit();
+            editor.putString("user_id",user_id);
+            editor.putString("username",username);
+            editor.putString("first_name",name);
+            editor.putString("last_name",lastName);
+            editor.putString("email",email);
+            editor.apply();
+
+
         }
     }
 

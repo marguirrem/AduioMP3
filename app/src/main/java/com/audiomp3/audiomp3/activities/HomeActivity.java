@@ -1,5 +1,7 @@
 package com.audiomp3.audiomp3.activities;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,6 +14,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import com.audiomp3.audiomp3.R;
 
@@ -24,6 +27,13 @@ public class HomeActivity extends AppCompatActivity
         setContentView(R.layout.activity_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        SharedPreferences sharedPref =getSharedPreferences("user", Context.MODE_PRIVATE);
+        String id = sharedPref.getString("user_id","0");
+        String first_name = sharedPref.getString("first_name","Vacio");
+        String last_name = sharedPref.getString("last_name","Vacio");
+        String username = sharedPref.getString("username","Anonimo");
+        String email = sharedPref.getString("email","0");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -41,6 +51,13 @@ public class HomeActivity extends AppCompatActivity
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+
+        View header = ((NavigationView)findViewById(R.id.nav_view)).getHeaderView(0);
+        //modifying the text of the header's textviews
+        //if shared preferences not exits
+
+        ((TextView) header.findViewById(R.id.tvUserName)).setText(first_name + " " + last_name);
+        ((TextView) header.findViewById(R.id.tvUserEmail)).setText(email);
         navigationView.setNavigationItemSelectedListener(this);
     }
 
