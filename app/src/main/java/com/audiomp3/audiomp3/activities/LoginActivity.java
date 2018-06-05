@@ -9,8 +9,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -19,6 +21,7 @@ import com.audiomp3.audiomp3.interfaces.Login;
 import com.audiomp3.audiomp3.interfaces.Register;
 import com.audiomp3.audiomp3.services.ResponseLogin;
 import com.audiomp3.audiomp3.services.ResponseRegister;
+import com.bumptech.glide.Glide;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -29,6 +32,8 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
+
+import static com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions.withCrossFade;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -56,9 +61,10 @@ public class LoginActivity extends AppCompatActivity {
 
     @OnClick(R.id.btnSigIn)
     public void singIn(){
+        hideKeyBorad();
         progressBar.setVisibility(View.VISIBLE);
-
-        new Peticion(this,etUsuario.getText().toString().trim(),
+        View view = new View(this);
+        new Peticion(this,view,etUsuario.getText().toString().trim(),
                 etPassword.getText().toString().trim()).execute();
     }
 
@@ -74,15 +80,49 @@ public class LoginActivity extends AppCompatActivity {
         Toast.makeText(this, "Recover Password", Toast.LENGTH_SHORT).show();
     }
 
+    private void hideKeyBorad() {
+        InputMethodManager inputManager = (InputMethodManager)
+                getSystemService(Context.INPUT_METHOD_SERVICE);
+        try {
+            inputManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),
+                    InputMethodManager.HIDE_NOT_ALWAYS);
+        }catch (NullPointerException npe){
+            Log.e(getLocalClassName(),Log.getStackTraceString(npe));
+        }
+    }
     public class Peticion extends AsyncTask<Void,Void,Void>{
         String email;
         String password;
         Context context;
+        View view;
 
-        public Peticion(Context context,String email,String password){
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            super.onPostExecute(aVoid);
+            progressBar.setVisibility(View.GONE);
+            ImageView imageView = findViewById(R.id.ivUser);
+            try{
+                Glide
+                        .with(view)
+                        .load("https://lh6.ggpht.com/9SZhHdv4URtBzRmXpnWxZcYhkgTQurFuuQ8OR7WZ3R7fyTmha77dYkVvcuqMu3DLvMQ=w300")
+                        .transition(withCrossFade())
+
+                        .into(imageView);
+            }catch (Exception e){
+                Log.e("image","error: "+e.getMessage());
+            }
+        }
+
+        @Override
+        protected void onProgressUpdate(Void... values) {
+            super.onProgressUpdate(values);
+        }
+
+        public Peticion(Context context, View view,String email, String password){
             this.email = email;
             this.password= password;
             this.context = context;
+            this.view = view;
         }
 
         @Override
@@ -104,6 +144,7 @@ public class LoginActivity extends AppCompatActivity {
                     public void onResponse(Call<ResponseLogin> call, Response<ResponseLogin> response) {
                         if (response.isSuccessful()) {
                             if(response.code()==200){
+
                                 String user_id = response.body().getId();
                                 String username = response.body().getUsername();
                                 //String pass = etPass.getText().toString().trim();
