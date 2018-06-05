@@ -18,11 +18,11 @@ import java.lang.Override;
 public class LoginActivity_ViewBinding implements Unbinder {
   private LoginActivity target;
 
-  private View view2131230749;
+  private View view2131230757;
 
-  private View view2131230898;
+  private View view2131230920;
 
-  private View view2131230899;
+  private View view2131230921;
 
   @UiThread
   public LoginActivity_ViewBinding(LoginActivity target) {
@@ -38,7 +38,7 @@ public class LoginActivity_ViewBinding implements Unbinder {
     target.etPassword = Utils.findRequiredViewAsType(source, R.id.loginEtPassword, "field 'etPassword'", EditText.class);
     view = Utils.findRequiredView(source, R.id.btnSigIn, "field 'btnIniciar' and method 'singIn'");
     target.btnIniciar = Utils.castView(view, R.id.btnSigIn, "field 'btnIniciar'", Button.class);
-    view2131230749 = view;
+    view2131230757 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -48,7 +48,7 @@ public class LoginActivity_ViewBinding implements Unbinder {
     target.progressBar = Utils.findRequiredViewAsType(source, R.id.loginProgress, "field 'progressBar'", ProgressBar.class);
     view = Utils.findRequiredView(source, R.id.tvMessagePassword, "field 'tvMessagePassword' and method 'recoverPassword'");
     target.tvMessagePassword = Utils.castView(view, R.id.tvMessagePassword, "field 'tvMessagePassword'", TextView.class);
-    view2131230898 = view;
+    view2131230920 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -57,7 +57,7 @@ public class LoginActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.tvMessageSignUp, "field 'tvMessageSignUp' and method 'singUp'");
     target.tvMessageSignUp = Utils.castView(view, R.id.tvMessageSignUp, "field 'tvMessageSignUp'", TextView.class);
-    view2131230899 = view;
+    view2131230921 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -80,11 +80,11 @@ public class LoginActivity_ViewBinding implements Unbinder {
     target.tvMessagePassword = null;
     target.tvMessageSignUp = null;
 
-    view2131230749.setOnClickListener(null);
-    view2131230749 = null;
-    view2131230898.setOnClickListener(null);
-    view2131230898 = null;
-    view2131230899.setOnClickListener(null);
-    view2131230899 = null;
+    view2131230757.setOnClickListener(null);
+    view2131230757 = null;
+    view2131230920.setOnClickListener(null);
+    view2131230920 = null;
+    view2131230921.setOnClickListener(null);
+    view2131230921 = null;
   }
 }

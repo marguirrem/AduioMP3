@@ -4,20 +4,26 @@ ADDED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.
 INJECTED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml:2:1-31:12
 INJECTED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml:2:1-31:12
 INJECTED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml:2:1-31:12
-MERGED from [com.android.support:design:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/40b6172fcafa633065216cafc8962eae/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b8397b557577eec7d06bda78a21e6ba5/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:transition:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/d0feae447c58e1817a4e362f70713726/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/891903b37bae6ccf7f2861cb69d06d22/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/71e5981a0ea1e93b50f1de82de3148bf/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/8ae1e64f5eb284f8672cb591f68e4bb5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:design:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/3204a2e45dfa6d5db9f9aba59dfc82cc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b80933d0c1b9907b42e36ac3028f0a3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/d22966f5e08c28d68f2cacdec39ce2fc/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/994ef2429b5fc56444b865de356d63a0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a7864d8be28e847c7f8506ba9f6ca963/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9d7ac212dd26b3ed478a6c2d8200119d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/d6bb652aca342cb12d945aa59a9300ae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/bffb304f8325bb97b85dd722b059356c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/c18ad9f64d61eee3a9a5aebe954e1851/AndroidManifest.xml:17:1-22:12
 MERGED from [com.jakewharton:butterknife:8.5.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/e0ca170bcf25f205a5ef26d56bc9624d/AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/marlon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ae09cab6942d6631007e39e585ca31cc/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e06a209655998519f6a8d27cdff8eeeb/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/7f487d9b9ec36f2b8fefb65e48ac2104/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/279149348e883b560a8c1ef5ccc5a234/AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/b29d049279a0f9f48980eb11b2b06b5c/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/04fb54b31e5dbdd4a9c86a1096ea0370/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/65cbb25a2844430df3e359b8b1f58cfb/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/2474ecfe65c6edde43fc0f6f0b5fb882/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/2b65459fc46871ce6eea1e7cb60aea32/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/730a84ed7739ffc2a1bc23e7fa405e51/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/403b0843a0f1915fc0ac2d7ab8730312/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b41c8d20236bb23b2cb64787a8bb35a2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/marlon/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/cd4729185c18dd1cb7b30d4ca1637414/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/marlon/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/3510092e27a0f0050cf392d474c1e502/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/marlon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/55335743d92b8e5a37138cfd640f89c8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/marlon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/76d4c458b1d6f9e8e9ccefdadf0e665c/AndroidManifest.xml:17:1-22:12
 INJECTED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml:2:1-31:12
 INJECTED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml:2:1-31:12
 INJECTED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml:2:1-31:12
@@ -41,30 +47,12 @@ ADDED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.
 		ADDED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml:5:22-64
 application
 ADDED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml:7:5-29:19
-MERGED from [com.android.support:design:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/40b6172fcafa633065216cafc8962eae/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:design:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/40b6172fcafa633065216cafc8962eae/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b8397b557577eec7d06bda78a21e6ba5/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b8397b557577eec7d06bda78a21e6ba5/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/d0feae447c58e1817a4e362f70713726/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/d0feae447c58e1817a4e362f70713726/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/891903b37bae6ccf7f2861cb69d06d22/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/891903b37bae6ccf7f2861cb69d06d22/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/71e5981a0ea1e93b50f1de82de3148bf/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/71e5981a0ea1e93b50f1de82de3148bf/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/8ae1e64f5eb284f8672cb591f68e4bb5/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/8ae1e64f5eb284f8672cb591f68e4bb5/AndroidManifest.xml:29:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/d22966f5e08c28d68f2cacdec39ce2fc/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/d22966f5e08c28d68f2cacdec39ce2fc/AndroidManifest.xml:11:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/marlon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ae09cab6942d6631007e39e585ca31cc/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/marlon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ae09cab6942d6631007e39e585ca31cc/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e06a209655998519f6a8d27cdff8eeeb/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e06a209655998519f6a8d27cdff8eeeb/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/7f487d9b9ec36f2b8fefb65e48ac2104/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/7f487d9b9ec36f2b8fefb65e48ac2104/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/b29d049279a0f9f48980eb11b2b06b5c/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/b29d049279a0f9f48980eb11b2b06b5c/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/04fb54b31e5dbdd4a9c86a1096ea0370/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/04fb54b31e5dbdd4a9c86a1096ea0370/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/65cbb25a2844430df3e359b8b1f58cfb/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/65cbb25a2844430df3e359b8b1f58cfb/AndroidManifest.xml:29:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/730a84ed7739ffc2a1bc23e7fa405e51/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/730a84ed7739ffc2a1bc23e7fa405e51/AndroidManifest.xml:9:5-20
 	android:supportsRtl
 		ADDED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
@@ -113,38 +101,48 @@ uses-sdk
 INJECTED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml
 INJECTED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/40b6172fcafa633065216cafc8962eae/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/40b6172fcafa633065216cafc8962eae/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b8397b557577eec7d06bda78a21e6ba5/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b8397b557577eec7d06bda78a21e6ba5/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:transition:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/d0feae447c58e1817a4e362f70713726/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/d0feae447c58e1817a4e362f70713726/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/891903b37bae6ccf7f2861cb69d06d22/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/891903b37bae6ccf7f2861cb69d06d22/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/71e5981a0ea1e93b50f1de82de3148bf/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/71e5981a0ea1e93b50f1de82de3148bf/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/8ae1e64f5eb284f8672cb591f68e4bb5/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/8ae1e64f5eb284f8672cb591f68e4bb5/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:design:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/3204a2e45dfa6d5db9f9aba59dfc82cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/3204a2e45dfa6d5db9f9aba59dfc82cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b80933d0c1b9907b42e36ac3028f0a3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b80933d0c1b9907b42e36ac3028f0a3/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/d22966f5e08c28d68f2cacdec39ce2fc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/d22966f5e08c28d68f2cacdec39ce2fc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/994ef2429b5fc56444b865de356d63a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/994ef2429b5fc56444b865de356d63a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a7864d8be28e847c7f8506ba9f6ca963/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a7864d8be28e847c7f8506ba9f6ca963/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9d7ac212dd26b3ed478a6c2d8200119d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9d7ac212dd26b3ed478a6c2d8200119d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/d6bb652aca342cb12d945aa59a9300ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/d6bb652aca342cb12d945aa59a9300ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/bffb304f8325bb97b85dd722b059356c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/bffb304f8325bb97b85dd722b059356c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/c18ad9f64d61eee3a9a5aebe954e1851/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/c18ad9f64d61eee3a9a5aebe954e1851/AndroidManifest.xml:20:5-44
 MERGED from [com.jakewharton:butterknife:8.5.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/e0ca170bcf25f205a5ef26d56bc9624d/AndroidManifest.xml:5:5-43
 MERGED from [com.jakewharton:butterknife:8.5.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/e0ca170bcf25f205a5ef26d56bc9624d/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/marlon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ae09cab6942d6631007e39e585ca31cc/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/marlon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ae09cab6942d6631007e39e585ca31cc/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e06a209655998519f6a8d27cdff8eeeb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e06a209655998519f6a8d27cdff8eeeb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/7f487d9b9ec36f2b8fefb65e48ac2104/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/7f487d9b9ec36f2b8fefb65e48ac2104/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/279149348e883b560a8c1ef5ccc5a234/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/279149348e883b560a8c1ef5ccc5a234/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/b29d049279a0f9f48980eb11b2b06b5c/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/b29d049279a0f9f48980eb11b2b06b5c/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/04fb54b31e5dbdd4a9c86a1096ea0370/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/04fb54b31e5dbdd4a9c86a1096ea0370/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/65cbb25a2844430df3e359b8b1f58cfb/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/65cbb25a2844430df3e359b8b1f58cfb/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/2474ecfe65c6edde43fc0f6f0b5fb882/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/2474ecfe65c6edde43fc0f6f0b5fb882/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/2b65459fc46871ce6eea1e7cb60aea32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/2b65459fc46871ce6eea1e7cb60aea32/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/730a84ed7739ffc2a1bc23e7fa405e51/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/730a84ed7739ffc2a1bc23e7fa405e51/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/403b0843a0f1915fc0ac2d7ab8730312/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/403b0843a0f1915fc0ac2d7ab8730312/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b41c8d20236bb23b2cb64787a8bb35a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b41c8d20236bb23b2cb64787a8bb35a2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/marlon/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/cd4729185c18dd1cb7b30d4ca1637414/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/marlon/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/cd4729185c18dd1cb7b30d4ca1637414/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/marlon/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/3510092e27a0f0050cf392d474c1e502/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/marlon/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/3510092e27a0f0050cf392d474c1e502/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/marlon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/55335743d92b8e5a37138cfd640f89c8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/marlon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/55335743d92b8e5a37138cfd640f89c8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/marlon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/76d4c458b1d6f9e8e9ccefdadf0e665c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/marlon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/76d4c458b1d6f9e8e9ccefdadf0e665c/AndroidManifest.xml:20:5-44
 INJECTED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml
 INJECTED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/40b6172fcafa633065216cafc8962eae/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml
 		ADDED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml
@@ -153,31 +151,3 @@ INJECTED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManife
 		INJECTED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml
 		ADDED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml
 		INJECTED from /home/marlon/proyectos/android/AudioMP3/app/src/main/AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/40b6172fcafa633065216cafc8962eae/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b8397b557577eec7d06bda78a21e6ba5/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/b8397b557577eec7d06bda78a21e6ba5/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:transition:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/d0feae447c58e1817a4e362f70713726/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/d0feae447c58e1817a4e362f70713726/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/891903b37bae6ccf7f2861cb69d06d22/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/891903b37bae6ccf7f2861cb69d06d22/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/71e5981a0ea1e93b50f1de82de3148bf/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/71e5981a0ea1e93b50f1de82de3148bf/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/8ae1e64f5eb284f8672cb591f68e4bb5/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/8ae1e64f5eb284f8672cb591f68e4bb5/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e06a209655998519f6a8d27cdff8eeeb/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e06a209655998519f6a8d27cdff8eeeb/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/7f487d9b9ec36f2b8fefb65e48ac2104/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/7f487d9b9ec36f2b8fefb65e48ac2104/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/279149348e883b560a8c1ef5ccc5a234/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/279149348e883b560a8c1ef5ccc5a234/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/b29d049279a0f9f48980eb11b2b06b5c/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/b29d049279a0f9f48980eb11b2b06b5c/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/04fb54b31e5dbdd4a9c86a1096ea0370/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/04fb54b31e5dbdd4a9c86a1096ea0370/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/65cbb25a2844430df3e359b8b1f58cfb/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/65cbb25a2844430df3e359b8b1f58cfb/AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:design:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/40b6172fcafa633065216cafc8962eae/AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:design:25.3.1] /home/marlon/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/40b6172fcafa633065216cafc8962eae/AndroidManifest.xml:26:9-47

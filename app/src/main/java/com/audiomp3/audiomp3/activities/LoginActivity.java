@@ -88,7 +88,7 @@ public class LoginActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... voids) {
             //constante de la url a la que se hace la petición
-            final String url = "http://192.168.0.18/AudioMP3/public/";
+            final String url = "http://192.168.0.18:8000";
 
             Retrofit retrofit = new Retrofit.Builder()
                     .baseUrl(url)
@@ -110,7 +110,8 @@ public class LoginActivity extends AppCompatActivity {
                                 String name = response.body().getFirstName();
                                 String lastName = response.body().getLastName();
                                 String email = response.body().getEmail();
-                                rememberMe(user_id,username,name,lastName,email);
+                                String photo = response.body().getPhoto();
+                                rememberMe(user_id,username,name,lastName,email,photo);
 
                                 Toast.makeText(context,"Usuario "+response.body().getFirstName()+" logeado con exito!", Toast.LENGTH_SHORT).show();
                                 Intent i = new Intent(context, HomeActivity.class);
@@ -142,7 +143,8 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
-        private void rememberMe(String user_id,String username,String name,String lastName,String email){
+        private void rememberMe(String user_id,String username,String name,String
+                lastName,String email,String photo){
             //save id of user from websrvice on sharedpreferences
             SharedPreferences sharedPref =getSharedPreferences("user",Context.MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPref.edit();
@@ -151,6 +153,7 @@ public class LoginActivity extends AppCompatActivity {
             editor.putString("first_name",name);
             editor.putString("last_name",lastName);
             editor.putString("email",email);
+            editor.putString("photo",photo);
             editor.apply();
 
 

@@ -9,13 +9,14 @@ public class ResponseLogin {
     private String updatedAt;
     private String createdAt;
     private String id;
-
+    private String photo;
     /**
      * No args constructor for use in serialization
      *
      */
     public ResponseLogin() {
     }
+
 
     /**
      *
@@ -28,7 +29,7 @@ public class ResponseLogin {
      * @param first_name
      */
     public ResponseLogin(String first_name, String last_name, String username, String email,
-                         String updated_at, String created_at, String id) {
+                         String updated_at, String created_at, String id,String photo) {
         super();
         this.first_name = first_name;
         this.last_name = last_name;
@@ -37,7 +38,9 @@ public class ResponseLogin {
         this.updatedAt = updated_at;
         this.createdAt = created_at;
         this.id = id;
+        this.photo = photo;
     }
+
 
     public String getFirstName() {
         return first_name;
@@ -96,5 +99,12 @@ public class ResponseLogin {
     }
 
 
+    public String getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
+    }
 
 }
