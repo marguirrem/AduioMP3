@@ -99,18 +99,7 @@ public class LoginActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
-            progressBar.setVisibility(View.GONE);
-            ImageView imageView = findViewById(R.id.ivUser);
-            try{
-                Glide
-                        .with(view)
-                        .load("https://lh6.ggpht.com/9SZhHdv4URtBzRmXpnWxZcYhkgTQurFuuQ8OR7WZ3R7fyTmha77dYkVvcuqMu3DLvMQ=w300")
-                        .transition(withCrossFade())
 
-                        .into(imageView);
-            }catch (Exception e){
-                Log.e("image","error: "+e.getMessage());
-            }
         }
 
         @Override
@@ -151,6 +140,7 @@ public class LoginActivity extends AppCompatActivity {
                                 String name = response.body().getFirstName();
                                 String lastName = response.body().getLastName();
                                 String email = response.body().getEmail();
+                                Log.e("After","photo: "+response.body().getPhoto());
                                 String photo = response.body().getPhoto();
                                 rememberMe(user_id,username,name,lastName,email,photo);
 

@@ -45,12 +45,6 @@ public class HomeActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ImageView imageView = findViewById(R.id.ivUser);
-                Glide
-                        .with(view)
-                        .load("https://lh6.ggpht.com/9SZhHdv4URtBzRmXpnWxZcYhkgTQurFuuQ8OR7WZ3R7fyTmha77dYkVvcuqMu3DLvMQ=w300")
-                        .into(imageView);
-
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
@@ -62,12 +56,17 @@ public class HomeActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        NavigationView navigationView = findViewById(R.id.nav_view);
 
         View header = ((NavigationView)findViewById(R.id.nav_view)).getHeaderView(0);
         //modifying the text of the header's textviews
         //if shared preferences not exits
 
+        String[] parts = photo.split("/");
+        String imageName = parts[1]; // image name
+        Glide.with(getBaseContext().getApplicationContext())
+                .load("http://192.168.0.18:8000/storage/"+imageName)
+                .into( ( (ImageView) header.findViewById(R.id.ivUser) )  );
         ((TextView) header.findViewById(R.id.tvUserName)).setText(first_name + " " + last_name);
         ((TextView) header.findViewById(R.id.tvUserEmail)).setText(email);
         navigationView.setNavigationItemSelectedListener(this);
