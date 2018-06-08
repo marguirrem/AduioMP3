@@ -61,9 +61,14 @@ public class HomeActivity extends AppCompatActivity
         View header = ((NavigationView)findViewById(R.id.nav_view)).getHeaderView(0);
         //modifying the text of the header's textviews
         //if shared preferences not exits
+        String imageName="";
+        if(photo.toString().equals("user_blank.png")){
+            imageName = photo.toString().trim();
+        }else{
+            String[] parts = photo.split("/");
+            imageName = parts[1]; // image name
+        }
 
-        String[] parts = photo.split("/");
-        String imageName = parts[1]; // image name
         Glide.with(getBaseContext().getApplicationContext())
                 .load("http://192.168.0.18:8000/storage/"+imageName)
                 .into( ( (ImageView) header.findViewById(R.id.ivUser) )  );
