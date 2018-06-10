@@ -909,8 +909,8 @@ int id mini 0x7f08006d
 int id multiply 0x7f08006e
 int id nav_camera 0x7f08006f
 int id nav_gallery 0x7f080070
-int id nav_manage 0x7f080071
-int id nav_send 0x7f080072
+int id nav_logout 0x7f080071
+int id nav_manage 0x7f080072
 int id nav_share 0x7f080073
 int id nav_slideshow 0x7f080074
 int id nav_view 0x7f080075

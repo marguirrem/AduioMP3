@@ -1,6 +1,7 @@
 package com.audiomp3.audiomp3.activities;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -32,13 +33,13 @@ public class HomeActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        SharedPreferences sharedPref =getSharedPreferences("user", Context.MODE_PRIVATE);
+        SharedPreferences sharedPref = getSharedPreferences("user", Context.MODE_PRIVATE);
         //String id = sharedPref.getString("user_id","0");
-        String first_name = sharedPref.getString("first_name","Vacio");
-        String last_name = sharedPref.getString("last_name","Vacio");
+        String first_name = sharedPref.getString("first_name", "Vacio");
+        String last_name = sharedPref.getString("last_name", "Vacio");
         //String username = sharedPref.getString("username","Anonimo");
-        String email = sharedPref.getString("email","0");
-        String photo = sharedPref.getString("photo","null");
+        String email = sharedPref.getString("email", "0");
+        String photo = sharedPref.getString("photo", "null");
         View view = new View(this);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -58,20 +59,20 @@ public class HomeActivity extends AppCompatActivity
 
         NavigationView navigationView = findViewById(R.id.nav_view);
 
-        View header = ((NavigationView)findViewById(R.id.nav_view)).getHeaderView(0);
+        View header = ((NavigationView) findViewById(R.id.nav_view)).getHeaderView(0);
         //modifying the text of the header's textviews
         //if shared preferences not exits
-        String imageName="";
-        if(photo.toString().equals("user_blank.png")){
+        String imageName = "";
+        if (photo.toString().equals("user_blank.png")) {
             imageName = photo.toString().trim();
-        }else{
+        } else {
             String[] parts = photo.split("/");
             imageName = parts[1]; // image name
         }
 
         Glide.with(getBaseContext().getApplicationContext())
-                .load("http://192.168.0.18:8000/storage/"+imageName)
-                .into( ( (ImageView) header.findViewById(R.id.ivUser) )  );
+                .load("http://192.168.0.18:8000/storage/" + imageName)
+                .into(((ImageView) header.findViewById(R.id.ivUser)));
         ((TextView) header.findViewById(R.id.tvUserName)).setText(first_name + " " + last_name);
         ((TextView) header.findViewById(R.id.tvUserEmail)).setText(email);
         navigationView.setNavigationItemSelectedListener(this);
@@ -112,6 +113,7 @@ public class HomeActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
+        SharedPreferences sharedPref = getSharedPreferences("user", Context.MODE_PRIVATE);
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
@@ -125,8 +127,13 @@ public class HomeActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_share) {
 
-        } else if (id == R.id.nav_send) {
-
+        } else if (id == R.id.nav_logout) {
+            SharedPreferences.Editor editor = sharedPref.edit();
+            editor.clear();
+            editor.apply();
+            Intent intent = new Intent(this, SplashScreenActivity.class);
+            startActivity(intent);
+            finish();
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

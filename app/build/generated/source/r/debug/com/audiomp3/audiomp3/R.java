@@ -3666,8 +3666,8 @@ public final class R {
     public static final int multiply=0x7f08006e;
     public static final int nav_camera=0x7f08006f;
     public static final int nav_gallery=0x7f080070;
-    public static final int nav_manage=0x7f080071;
-    public static final int nav_send=0x7f080072;
+    public static final int nav_logout=0x7f080071;
+    public static final int nav_manage=0x7f080072;
     public static final int nav_share=0x7f080073;
     public static final int nav_slideshow=0x7f080074;
     public static final int nav_view=0x7f080075;
