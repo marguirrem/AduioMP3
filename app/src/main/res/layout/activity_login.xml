@@ -42,9 +42,11 @@
             android:id="@+id/btnSigIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_round"
+            android:background="@drawable/button_round_disabled"
+            android:text="@string/login.btnSigIn"
             android:textColor="@color/colorWhite"
-            android:text="@string/login.btnSigIn" />
+            android:visibility="visible"
+            tools:clickable="false" />
 
 
     </LinearLayout>

@@ -69,7 +69,7 @@
         android:id="@+id/btnSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/button_round"
+        android:background="@drawable/button_round_enabled"
         android:text="@string/registro.btn.signUp"
         android:textColor="@color/colorWhite"
         android:visibility="visible" />
