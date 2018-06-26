@@ -20,9 +20,9 @@ public class LoginActivity_ViewBinding implements Unbinder {
 
   private View view2131230757;
 
-  private View view2131230920;
+  private View view2131230924;
 
-  private View view2131230921;
+  private View view2131230925;
 
   @UiThread
   public LoginActivity_ViewBinding(LoginActivity target) {
@@ -48,7 +48,7 @@ public class LoginActivity_ViewBinding implements Unbinder {
     target.progressBar = Utils.findRequiredViewAsType(source, R.id.loginProgress, "field 'progressBar'", ProgressBar.class);
     view = Utils.findRequiredView(source, R.id.tvMessagePassword, "field 'tvMessagePassword' and method 'recoverPassword'");
     target.tvMessagePassword = Utils.castView(view, R.id.tvMessagePassword, "field 'tvMessagePassword'", TextView.class);
-    view2131230920 = view;
+    view2131230924 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -57,7 +57,7 @@ public class LoginActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.tvMessageSignUp, "field 'tvMessageSignUp' and method 'singUp'");
     target.tvMessageSignUp = Utils.castView(view, R.id.tvMessageSignUp, "field 'tvMessageSignUp'", TextView.class);
-    view2131230921 = view;
+    view2131230925 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -82,9 +82,9 @@ public class LoginActivity_ViewBinding implements Unbinder {
 
     view2131230757.setOnClickListener(null);
     view2131230757 = null;
-    view2131230920.setOnClickListener(null);
-    view2131230920 = null;
-    view2131230921.setOnClickListener(null);
-    view2131230921 = null;
+    view2131230924.setOnClickListener(null);
+    view2131230924 = null;
+    view2131230925.setOnClickListener(null);
+    view2131230925 = null;
   }
 }

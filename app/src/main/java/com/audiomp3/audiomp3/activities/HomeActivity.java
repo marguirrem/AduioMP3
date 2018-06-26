@@ -3,9 +3,11 @@ package com.audiomp3.audiomp3.activities;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -17,8 +19,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.audiomp3.audiomp3.R;
+import com.audiomp3.audiomp3.fragments.ArtistsFragment;
 import com.bumptech.glide.Glide;
 
 public class HomeActivity extends AppCompatActivity
@@ -116,9 +120,18 @@ public class HomeActivity extends AppCompatActivity
         SharedPreferences sharedPref = getSharedPreferences("user", Context.MODE_PRIVATE);
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        Fragment myfragment = null;
+        boolean fragmentSellecionado=false;
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
+            if(myfragment==null){
+                myfragment = new ArtistsFragment();
+            }else{
+                myfragment.onStart();
+            }
+
+            fragmentSellecionado=true;
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
@@ -128,6 +141,7 @@ public class HomeActivity extends AppCompatActivity
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_logout) {
+
             SharedPreferences.Editor editor = sharedPref.edit();
             editor.clear();
             editor.apply();
@@ -135,9 +149,16 @@ public class HomeActivity extends AppCompatActivity
             startActivity(intent);
             finish();
         }
+        if(fragmentSellecionado){
+            getSupportFragmentManager().beginTransaction().replace(R.id.contentMain,myfragment).commit();
+        }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
+
+
 }
