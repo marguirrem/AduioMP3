@@ -55,7 +55,7 @@ public class ArtistsFragment extends Fragment {
         artists_list = new ArrayList<ResponseArtists>();
         recyclerView = (RecyclerView) rootView.findViewById(R.id.recyclerViewArtists);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-        ArtistsAdapter adapter = new ArtistsAdapter(artists_list);
+        ArtistsAdapter adapter = new ArtistsAdapter(artists_list,getContext());
         recyclerView.setAdapter(adapter);
 
         return rootView;
@@ -76,7 +76,7 @@ public class ArtistsFragment extends Fragment {
         @Override
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
-            ArtistsAdapter adapter2 = new ArtistsAdapter(artists_list);
+            ArtistsAdapter adapter2 = new ArtistsAdapter(artists_list,getActivity());
             adapter2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
