@@ -14,6 +14,8 @@
             android:id="@+id/loginEtUsuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
             android:hint="@string/login.user.hint"/>
 
     </android.support.design.widget.TextInputLayout>
@@ -28,6 +30,7 @@
             android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
             android:hint="@string/login.et.password.hint"/>
     </android.support.design.widget.TextInputLayout>
 

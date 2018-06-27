@@ -1,6 +1,7 @@
 package com.audiomp3.audiomp3.activities;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
@@ -8,6 +9,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -117,7 +119,7 @@ public class HomeActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        SharedPreferences sharedPref = getSharedPreferences("user", Context.MODE_PRIVATE);
+        final SharedPreferences sharedPref = getSharedPreferences("user", Context.MODE_PRIVATE);
         // Handle navigation view item clicks here.
         int id = item.getItemId();
         Fragment myfragment = null;
@@ -142,12 +144,29 @@ public class HomeActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_logout) {
 
-            SharedPreferences.Editor editor = sharedPref.edit();
-            editor.clear();
-            editor.apply();
-            Intent intent = new Intent(this, SplashScreenActivity.class);
-            startActivity(intent);
-            finish();
+            final AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+            dialog.setTitle("Precaución")
+                    .setMessage("¿Está seguro que quiere salir?")
+                    .setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            SharedPreferences.Editor editor = sharedPref.edit();
+                            editor.clear();
+                            editor.apply();
+                            Intent intent = new Intent(getApplication(), SplashScreenActivity.class);
+                            startActivity(intent);
+                            finish();
+                        }
+                    })
+                    .setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            dialogInterface.dismiss();
+                        }
+                    });
+            dialog.show();
+
+
         }
         if(fragmentSellecionado){
             getSupportFragmentManager().beginTransaction().replace(R.id.contentMain,myfragment).commit();
